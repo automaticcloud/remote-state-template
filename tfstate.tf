@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "hestiacloud-tfstate"
+  bucket = "<bucket-name-here>"
 
   lifecycle {
     prevent_destroy = true
